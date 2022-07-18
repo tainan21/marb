@@ -1,5 +1,9 @@
 <template>
   <div>
+    <div class="topbar" style="background: white; height: 42px; width: 100%; position: fixed; z-index: 999999" >
+      <div class="Menu">
+      </div>
+    </div>
     <!-- Banner section start -->
     <section class="banner bannerfundao">
       <div class="container-fluid">
@@ -8,10 +12,9 @@
             <div class="banner-content" >
               <h1>Marb</h1>
               <span class="">O autocuidado é extremamente importante para ter uma vidade leve, saudável e feliz. Se cuidar nunca será um gasto, mas sim, um investimento. E existe investimento melhor do que cuidar de nós mesmos?</span>
-              <a href="https://app.monetizze.com.br/r/AKV20329213" class="btn-default">Confira Já!</a>
             </div>
           </div>
-          <div class="col-md-6 order-0 order-md-1">
+          <div class="col-md-6  order-0 order-md-1">
             <div class="ban-img">
               <img src="@/assets/taisebn1.png" class="img-fluid taiseimage" alt="Responsive image" style="width: 60%;">
             </div>
@@ -47,7 +50,7 @@
           </div>
           <div class="col-sm-12 col-md-4 col-lg-4">
             <vs-card >
-              <template #title><h3 class="titleProduct">Happy Air</h3></template>
+              <template #title><h3 class="titleProduct">Happy Hair</h3></template>
               <template #img>
                 <a href="https://app.monetizze.com.br/r/AKV20329213">
                   <img src="@/assets/happyAirGroup.jpeg" class="img-fluid productimage" alt="Responsive image">
@@ -110,7 +113,7 @@
         <div class="row" style="margin-bottom: 15px;">
           <div class="col-sm-12 col-md-3 col-lg-3">
             <vs-card>
-              <template #title><h3 href="#" class="titleProduct">Happy Air</h3></template>
+              <template #title><h3 href="#" class="titleProduct">Happy Hair</h3></template>
               <template #img>
                 <a href="https://app.monetizze.com.br/r/AKV20329213">
                   <img src="@/assets/happyOne.jpeg" class="img-fluid productimage" alt="Responsive image">
@@ -124,7 +127,7 @@
           </div>
           <div class="col-sm-12 col-md-3 col-lg-3">
             <vs-card >
-              <template #title><h3 class="titleProduct">Happy Air</h3></template>
+              <template #title><h3 class="titleProduct">Happy Hair</h3></template>
               <template #img>
                 <a href="https://app.monetizze.com.br/r/AKV20329213">
                   <img src="@/assets/happyAirtriplo.jpeg" class="img-fluid productimage" alt="Responsive image">
