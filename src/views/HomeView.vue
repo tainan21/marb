@@ -11,7 +11,7 @@
           <div class="col-md-6 order-1 order-md-0">
             <div class="banner-content" >
               <h1>Marb</h1>
-              <span class="">O autocuidado é extremamente importante para ter uma vidade leve, saudável e feliz. Se cuidar nunca será um gasto, mas sim, um investimento. E existe investimento melhor do que cuidar de nós mesmos?</span>
+              <span class="banner-font">O autocuidado é extremamente importante para ter uma vidade leve, saudável e feliz. Se cuidar nunca será um gasto, mas sim, um investimento. E existe investimento melhor do que cuidar de nós mesmos?</span>
             </div>
           </div>
           <div class="col-md-6  order-0 order-md-1">
