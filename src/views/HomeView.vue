@@ -1,7 +1,17 @@
 <template>
   <div>
     <div class="topbar" style="background: white; height: 42px; width: 100%; position: fixed; z-index: 999999" >
-      <div class="Menu">
+      <div class="container" style="height: 100%;">
+        <div class="row" style="height: 100%;">
+          <div class="col-3" style="display: flex; align-items: center; justify-content: center;">
+            <h1 style="font-size: 30px;">Marb</h1>
+          </div>
+          <div class="col-9">
+            <h1>instagram</h1>
+            <h1>Facebook</h1>
+            <h1></h1>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Banner section start -->
@@ -10,7 +20,6 @@
         <div class="row align-items-center">
           <div class="col-md-6 order-1 order-md-0">
             <div class="banner-content" >
-              <h1>Marb</h1>
               <span class="banner-font">O autocuidado é extremamente importante para ter uma vidade leve, saudável e feliz. Se cuidar nunca será um gasto, mas sim, um investimento. E existe investimento melhor do que cuidar de nós mesmos?</span>
             </div>
           </div>
@@ -229,7 +238,7 @@
       </div>
     </section>
     <!-- Instagram start -->
-    <section class="instagram">
+    <section class="">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -239,29 +248,50 @@
           </div>
         </div> 
         <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img src="@/assets/instagram/1.jpg" alt="">
-              <i class="ti-instagram"></i>
-            </a>
+          <div class="col-md-4 col-sm-6">
+            <vs-card type="2">
+              <template #title>
+                <h3 href="#" class="titleProduct">Shop Marb</h3></template>
+              <template #img>
+                <a href="https://www.instagram.com/shopmarbbr/?hl=pt">
+                  <img src="@/assets/taisebn1.png" class="img-fluid productimage" alt="Responsive image">
+                </a>
+              </template>
+              <template #text><p class="describleText">Cuide de sua Saúde</p></template>
+              <template #interactions>
+                <vs-button danger icon><i class='bx bx-heart'></i></vs-button>
+              </template>
+            </vs-card>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img src="@/assets/instagram/2.jpg" alt="">
-              <i class="ti-instagram"></i>
-            </a>
+          <div class="col-md-4 col-sm-6">
+            <vs-card type="2">
+              <template #title>
+                <h3 href="#" class="titleProduct">Shop Marb</h3></template>
+              <template #img>
+                <a href="https://www.instagram.com/shopmarbbr/?hl=pt">
+                  <img src="@/assets/DreamInsta.jpeg" class="img-fluid productimage" alt="Responsive image">
+                </a>
+              </template>
+              <template #text><p class="describleText">Cuide de sua Saúde</p></template>
+              <template #interactions>
+                <vs-button danger icon><i class='bx bx-heart'></i></vs-button>
+              </template>
+            </vs-card>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img src="@/assets/instagram/3.jpg" alt="">
-              <i class="ti-instagram"></i>
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img src="@/assets/instagram/4.jpg" alt="">
-              <i class="ti-instagram"></i>
-            </a>
+          <div class="col-md-4 col-sm-6">
+            <vs-card type="2">
+              <template #title>
+                <h3 href="#" class="titleProduct">Shop Marb</h3></template>
+              <template #img>
+                <a href="https://www.instagram.com/shopmarbbr/?hl=pt">
+                  <img src="@/assets/taisebn1.png" class="img-fluid productimage" alt="Responsive image">
+                </a>
+              </template>
+              <template #text><p class="describleText">Cuide de sua Saúde</p></template>
+              <template #interactions>
+                <vs-button danger icon><i class='bx bx-heart'></i></vs-button>
+              </template>
+            </vs-card>
           </div>
         </div>
       </div>
