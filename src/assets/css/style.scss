@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
 @import url('https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css');
 * {
   margin: 0;
@@ -13,7 +12,8 @@
 body {
   color: #000;
   background-color: #fff;
-  font-family: 'Montserrat';font-size: 22px;
+  font-family: 'Montserrat';
+  font-size: 22px;
   font-weight: 400;
   font-size: 14px;
   line-height: 27px;
@@ -21,9 +21,27 @@ body {
 h1, h2, h3, h4, h5, h6, p{
   font-family: 'Source Sans Pro', sans-serif;
 }
+.title-banner{
+  font-size: 30px;
+  color: #2B2B2B;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800 !important;
+  line-height: 1;
+  margin: 0 !important;
+  text-align: start;
+}
+.banner-font-green{
+  color: #65A603;
+}
+.banner-font-pink{
+  color: #94007B;
+}
 .banner-font{
-  font-size: 18px;
-  font-family: 'Source Sans Pro', sans-serif;
+  color: #F7F7F5;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1;
 }
 .OverScroll::-webkit-scrollbar, body::-webkit-scrollbar {
   width: 0.4rem;

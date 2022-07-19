@@ -4,11 +4,10 @@
       <div class="container" style="height: 100%;">
         <div class="row" style="height: 100%;">
           <div class="col-3" style="display: flex; align-items: center; justify-content: center;">
-            <h1 style="font-size: 30px;">Marb</h1>
+              <img src="@/assets/logoblack.png" class="" alt="" style="width: 60px;">
           </div>
-          <div class="col-9">
+          <div class="col-9" style="display: flex; flex-direction: row; align-items: center; justify-content: flex-end">
             <h1>instagram</h1>
-            <h1>Facebook</h1>
             <h1></h1>
           </div>
         </div>
@@ -19,8 +18,11 @@
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-md-6 order-1 order-md-0">
-            <div class="banner-content" >
-              <span class="banner-font">O autocuidado é extremamente importante para ter uma vidade leve, saudável e feliz. Se cuidar nunca será um gasto, mas sim, um investimento. E existe investimento melhor do que cuidar de nós mesmos?</span>
+            <div class="banner-content">
+              <h1 class="title-banner">Marb</h1>
+              <span class="banner-font">O autocuidado é extremamente importante para ter uma vida 
+                <span class="banner-font-green">leve, saudável e feliz. </span><br> Se cuidar nunca será um gasto, mas sim, um investimento. E existe<span class="banner-font-pink"> investimento melhor do que cuidar de nós mesmos?</span></span>
+                
             </div>
           </div>
           <div class="col-md-6  order-0 order-md-1">
@@ -249,7 +251,7 @@
         </div> 
         <div class="row">
           <div class="col-md-4 col-sm-6">
-            <vs-card type="2">
+            <vs-card type="1">
               <template #title>
                 <h3 href="#" class="titleProduct">Shop Marb</h3></template>
               <template #img>
@@ -264,7 +266,7 @@
             </vs-card>
           </div>
           <div class="col-md-4 col-sm-6">
-            <vs-card type="2">
+            <vs-card type="1">
               <template #title>
                 <h3 href="#" class="titleProduct">Shop Marb</h3></template>
               <template #img>
@@ -279,12 +281,12 @@
             </vs-card>
           </div>
           <div class="col-md-4 col-sm-6">
-            <vs-card type="2">
+            <vs-card type="1">
               <template #title>
                 <h3 href="#" class="titleProduct">Shop Marb</h3></template>
               <template #img>
                 <a href="https://www.instagram.com/shopmarbbr/?hl=pt">
-                  <img src="@/assets/taisebn1.png" class="img-fluid productimage" alt="Responsive image">
+                  <img src="@/assets/virteste.png" class="img-fluid productimage" alt="Responsive image">
                 </a>
               </template>
               <template #text><p class="describleText">Cuide de sua Saúde</p></template>
@@ -318,7 +320,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap");
   .bannerfundao{
-    background-image: url('@/assets/bg-1.jpg');
+    background-image: url('@/assets/bg-1.png');
     //background-image: url('@/assets/banner1.png');
   }
   .vs-card-content{
