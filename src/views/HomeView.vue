@@ -7,22 +7,24 @@
               <img src="@/assets/logoblack.png" class="" alt="" style="width: 60px;">
           </div>
           <div class="col-9" style="display: flex; flex-direction: row; align-items: center; justify-content: flex-end">
-            <h1>instagram</h1>
-            <h1></h1>
+            <h1><a href="https://www.instagram.com/shopmarbbr/?hl=pt">instagram</a></h1>
           </div>
         </div>
       </div>
     </div>
     <!-- Banner section start -->
-    <section class="banner bannerfundao">
+    <section class="banner bannerfundao" style="position: relative;">
+      <div class="exclude" >
+        <img src="@/assets/dream_colageno.png" class="img-absolute-1" alt="Responsive image"> 
+        <img src="@/assets/Kitcom3-MacaBoro.png" class="img-absolute-2" alt="Responsive image"> 
+        <img src="@/assets/garantia-1.png" class="img-absolute-3" alt="Responsive image">
+      </div>
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-md-6 order-1 order-md-0">
             <div class="banner-content">
-              <h1 class="title-banner">Marb</h1>
-              <span class="banner-font">O autocuidado é extremamente importante para ter uma vida 
-                <span class="banner-font-green">leve, saudável e feliz. </span><br> Se cuidar nunca será um gasto, mas sim, um investimento. E existe<span class="banner-font-pink"> investimento melhor do que cuidar de nós mesmos?</span></span>
-                
+              <span class="title-banner">Shop Marb</span>
+              <span class="banner-font">O autocuidado é extremamente importante para ter uma vida leve, saudável e feliz. Se cuidar nunca será um gasto, mas sim, um investimento. E existe investimento melhor do que cuidar de nós mesmos?</span>
             </div>
           </div>
           <div class="col-md-6  order-0 order-md-1">
@@ -90,8 +92,6 @@
         </div>
       </div>
     </section>
-    <!-- Lorem ipson end -->
-
     <!-- Banner 02 section start -->
     <section class="banner02">
       <div class="container-fluid">
@@ -239,6 +239,76 @@
         </div>
       </div>
     </section>
+    <!-- Instagram Seguis -->
+    <section class="banner bannerfundao">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">
+              <h1 class="title-banner" style="font-size: 3rem !important; margin-top: 10px !important;">Veja quem usa o produto:</h1>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="wrapper">
+              <div class="left-col">
+                  <div class="post">
+                      <div class="info">
+                          <div class="user">
+                            <vs-avatar history history-gradient circle>
+                              <img src="@/assets/virteste.png" alt="">
+                            </vs-avatar>
+                              <p class="username">Virginia</p>
+                          </div>
+                          <img src="img/option.PNG" class="options" alt="">
+                      </div>
+                      <a href="https://www.instagram.com/shopmarbbr/?hl=pt">  
+                        <img src="@/assets/virteste.png" class="img-fluid productimage" style="padding-top: 0px !important; height: 290px !important;" alt="Responsive image">
+                      </a>
+                      <div class="post-content">
+                          <div class="reaction-wrapper">
+                            <i class='bx bx-heart icon'></i>
+                            <i class='bx bx-user icon'></i>
+                            <i class='bx bx-user icon'></i>
+                          </div>
+                          <p class="likes" style="text-align: start">14,012 likes</p>
+                          <p class="post-time" style="text-align: start">2 minutes ago</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="wrapper">
+              <div class="left-col">
+                  <div class="post">
+                      <div class="info">
+                          <div class="user">
+                            <vs-avatar history history-gradient circle>
+                              <img src="@/assets/taise-marb.jpeg" alt="">
+                            </vs-avatar>
+                              <p class="username">Taise</p>
+                          </div>
+                          <img src="img/option.PNG" class="options" alt="">
+                      </div>
+                      <a href="https://www.instagram.com/shopmarbbr/?hl=pt">
+                        <img src="@/assets/taise-marb.jpeg" class="img-fluid productimage" style="padding-top: 0px !important; height: 290px !important;" alt="Responsive image">
+                      </a>
+                      <div class="post-content">
+                          <div class="reaction-wrapper">
+                            <i class='bx bx-heart icon'></i>
+                            <i class='bx bx-user icon'></i>
+                            <i class='bx bx-user icon'></i>
+                          </div>
+                          <p class="likes" style="text-align: start">12,012 likes</p>
+                          <p class="post-time" style="text-align: start">4 minutes ago</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Instagram start -->
     <section class="">
       <div class="container">
@@ -319,6 +389,7 @@
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap");
+  
   .bannerfundao{
     background-image: url('@/assets/bg-1.png');
     //background-image: url('@/assets/banner1.png');
@@ -328,7 +399,6 @@
     justify-content: center;
     align-items: center;
   }
-
   .vs-card__img{
     height: 220px !important;
     max-height: 220px !important;
@@ -342,7 +412,7 @@
   .banner-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
   .banner02{

@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @import url('https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css');
+$bg-purple-custom: #d500f9;
+$bg-black-custom: #000;
 * {
   margin: 0;
   padding: 0;
@@ -21,27 +23,186 @@ body {
 h1, h2, h3, h4, h5, h6, p{
   font-family: 'Source Sans Pro', sans-serif;
 }
+.banner-footer{
+  position: absolute;
+}
+.img-absolute{
+  &-1{
+    width: 12.5%;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+  }
+  &-2{
+    width: 12.5%;
+    position: absolute;
+    top: 69.4%;
+    left: 30%;;
+  }
+  &-3{
+    width: 12.5%;
+    position: absolute;
+    top: 69%;
+    left: 45%;
+  }
+}
+@media screen and (max-width: 991px) {
+ .exclude{ display: none;}
+ .banner-font{margin-bottom: 2px !important;} 
+}
 .title-banner{
-  font-size: 30px;
-  color: #2B2B2B;
+  font-size: 5rem !important;
+  color: #F7F7F5;
   font-family: 'Poppins', sans-serif;
   font-weight: 800 !important;
   line-height: 1;
-  margin: 0 !important;
-  text-align: start;
+  margin: 0 0 10px 0 !important;
+  background-color: #BF045B;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: initial !important;  
 }
+
+.post{
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  margin: 40px 0;
+}
+
+.info{
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5px 20px 5px 15px;
+}
+
+.info .username{
+  width: auto;
+  font-weight: bold;
+  color: #000;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.info .options{
+  height: 10px;
+  cursor: pointer;
+}
+
+.info .user{
+  display: flex;
+  align-items: center;
+}
+
+.info .profile-pic{
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  background: none;
+}
+
+
+.post-image{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.post-content{
+  width: 100%;
+  padding: 20px;
+}
+
+.likes{
+  font-weight: bold;
+}
+
+.description{
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.description span{
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.post-time{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+
+.comment-wrapper{
+  width: 100%;
+  height: 50px;
+  border-radius: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-wrapper .icon{
+  height: 30px;
+}
+
+.comment-box{
+  width: 80%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.comment-btn,
+.action-btn{
+  width: 70px;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: rgb(0, 162, 255);
+  opacity: 0.5;
+}
+
+.reaction-wrapper{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-top: -20px;
+  align-items: center;
+}
+
+.reaction-wrapper .icon{
+  height: 25px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.reaction-wrapper .icon.save{
+  margin-left: auto;
+}
+
 .banner-font-green{
-  color: #65A603;
+  color: #000;
 }
 .banner-font-pink{
-  color: #94007B;
+  color: #000;
 }
 .banner-font{
-  color: #F7F7F5;
-  font-family: "Montserrat", Sans-serif;
-  font-size: 30px;
-  font-weight: 800;
-  line-height: 1;
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  text-align: initial;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 60px;
 }
 .OverScroll::-webkit-scrollbar, body::-webkit-scrollbar {
   width: 0.4rem;
@@ -378,6 +539,7 @@ section {
   text-align: center;
 }
 
+
 .banner .banner-content h1, .banner02 .banner-content h1 {
   font-weight: 500;
   font-size: 58px;
@@ -407,7 +569,7 @@ section {
 
 @media screen and (max-width: 767px) {
   .banner .banner-content, .banner02 .banner-content {
-    padding: 60px 0;
+    padding: 20px 0;
   }
 }
 

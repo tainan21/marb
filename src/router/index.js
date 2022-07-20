@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import AboutView from '../views/aboutView.vue'
 import HomeView from '../views/HomeView.vue'
 
 Vue.use(VueRouter)
@@ -10,6 +11,12 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+  
+  {
+    path: '/about',
+    name: 'about',
+    component: AboutView
+  },
 ]
 
 const router = new VueRouter({
@@ -19,3 +26,6 @@ const router = new VueRouter({
 })
 
 export default router
+
+
+
