@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="topbar" style="background: white; height: 42px; width: 100%; position: fixed; z-index: 999999" >
+    <div class="topbar" style="background: white;  height: 50px; width: 100%; position: fixed; z-index: 999999">
       <div class="container" style="height: 100%;">
         <div class="row" style="height: 100%;">
-          <div class="col-3" style="display: flex; align-items: center; justify-content: center;">
-              <img src="@/assets/logoblack.png" class="" alt="" style="width: 60px;">
+          <div class="col-6" style="display: flex; align-items: center; justify-content: flex-start;">
+              <img src="@/assets/logoblack.png" class="" alt="" style="width: 55px;">
           </div>
-          <div class="col-9" style="display: flex; flex-direction: row; align-items: center; justify-content: flex-end">
-            <h1><a href="https://www.instagram.com/shopmarbbr/?hl=pt">instagram</a></h1>
+          <div class="col-6" style="display: flex; flex-direction: row; align-items: center; justify-content: flex-end">
+            <a href="https://www.instagram.com/shopmarbbr/?hl=pt" style="color: black; font-size: 14px; font-weight: bold;"><i class='bx bx-heart' style="left: 1px; bottom: 5px;left: -3px;bottom: -1.8px;position: relative;"></i>instagram</a>
           </div>
         </div>
       </div>
@@ -270,7 +270,7 @@
                             <i class='bx bx-user icon'></i>
                             <i class='bx bx-user icon'></i>
                           </div>
-                          <p class="likes" style="text-align: start">14,012 likes</p>
+                          <p class="likes" style="text-align: start; padding: 0 !important;">14,012 likes</p>
                           <p class="post-time" style="text-align: start">2 minutes ago</p>
                       </div>
                 </div>
@@ -299,7 +299,7 @@
                             <i class='bx bx-user icon'></i>
                             <i class='bx bx-user icon'></i>
                           </div>
-                          <p class="likes" style="text-align: start">12,012 likes</p>
+                          <p class="likes" style="text-align: start; padding: 0 !important;">12,012 likes</p>
                           <p class="post-time" style="text-align: start">4 minutes ago</p>
                       </div>
                 </div>
@@ -412,7 +412,7 @@
   .banner-content{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
   }
   .banner02{
