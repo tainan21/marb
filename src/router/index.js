@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import AboutView from '../views/aboutView.vue'
 import HomeView from '../views/HomeView.vue'
+import macanegra from '../views/macanegra.vue'
 
 Vue.use(VueRouter)
 
@@ -16,6 +17,11 @@ const routes = [
     path: '/about',
     name: 'about',
     component: AboutView
+  },
+  {
+    path: '/macanegra',
+    name: 'about',
+    component: macanegra
   },
 ]
 
